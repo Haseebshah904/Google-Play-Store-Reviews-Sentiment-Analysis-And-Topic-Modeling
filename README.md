@@ -91,7 +91,7 @@ Some of the main libraries and tools used in the project include:
 ## Hugging Face Integration
 The project is integrated with Hugging Face Spaces, using the Gradio library to build an interactive interface for users to input their own reviews and receive sentiment and topic modeling results in real time.
 ![Image Alt](https://github.com/Haseebshah904/Google-Play-Store-Reviews-Sentiment-Analysis-And-Topic-Modeling/blob/main/User%20interface%201.PNG?raw=true).
-![Image Alt](image_url).
+![Image Alt](https://github.com/Haseebshah904/Google-Play-Store-Reviews-Sentiment-Analysis-And-Topic-Modeling/blob/main/User%20interface%202.PNG?raw=true).
 
 ## Docker
 
