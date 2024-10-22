@@ -35,7 +35,7 @@ cd Google-Play-Store-Reviews-Sentiment-Analysis-And-Topic-Modeling
 ## 1.Install dependencies:
 + bash
 + pip install -r requirements.txt
-+ 
+ 
 ## 2.Install docker if it is not already installed:
 
 + bash
@@ -46,7 +46,7 @@ cd Google-Play-Store-Reviews-Sentiment-Analysis-And-Topic-Modeling
 
 ## 1.Local Deployment with Python: To run the application locally, simply execute the app.py script.
 + bash
-python app.py
++ python app.py
 You can then access the Gradio interface via your local host to interact with the sentiment analysis and topic modeling features.
 
 ## 2.Containerized Deployment with Docker: Build and run the Docker container for the project:
