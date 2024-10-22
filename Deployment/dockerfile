@@ -1,0 +1,20 @@
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the current directory contents into the container
+COPY . /app
+
+# Upgrade pip to avoid any issues with outdated versions
+RUN pip install --upgrade pip
+
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir --default-timeout=1000 -r requirements.txt
+
+# Expose port 7860 to access Gradio Interface
+EXPOSE 7860
+
+# Run the Gradio app
+CMD ["python", "app.py"]

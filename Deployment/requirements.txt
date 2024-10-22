@@ -1,0 +1,13 @@
+gradio
+google-play-scraper
+transformers
+top2vec[sentence_encoders]
+matplotlib
+wordcloud
+pandas
+torch==2.2.0  # Ensure this version is available
+tensorflow==2.10 # Use an available version
+tensorflow_hub
+tensorflow_text==2.10
+nltk
+requests
